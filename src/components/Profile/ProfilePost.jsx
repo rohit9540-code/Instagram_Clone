@@ -25,7 +25,7 @@ import useAuthStore from "../../store/authStore";
 import useShowToast from "../../hooks/useShowToast";
 import { useState } from "react";
 import { deleteObject, ref } from "firebase/storage";
-import { firestore, storage } from "../../firebase/Firebase";
+import { firestore, storage } from "../../firebase/firebase";
 import { arrayRemove, deleteDoc, doc, updateDoc } from "firebase/firestore";
 import usePostStore from "../../store/postStore";
 import Caption from "../Comment/Caption";

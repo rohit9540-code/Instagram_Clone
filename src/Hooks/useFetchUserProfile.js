@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import useShowToast from "./useShowToast"
-import { firestore } from "../firebase/Firebase"
+import { firestore } from "../firebase/firebase"
 import { doc, getDoc } from "firebase/firestore"
 
 const useFetchUserProfile = (userId) => {

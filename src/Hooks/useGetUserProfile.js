@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import useShowToast from "./useShowToast"
 import { collection, getDocs, query, where } from "firebase/firestore"
-import { firestore } from "../firebase/Firebase"
+import { firestore } from "../firebase/firebase"
 import useUserprofileStore from "../store/userProfileStore"
 
 const useGetUserProfile = (username) => {

@@ -1,5 +1,5 @@
 import { useCreateUserWithEmailAndPassword } from 'react-firebase-hooks/auth';
-import {auth, firestore} from "../firebase/Firebase"
+import {auth, firestore} from "../firebase/firebase"
 // import SignUp from '../components/AuthForm/SignUp';
 import { collection, doc, getDocs, query, setDoc, where } from 'firebase/firestore';
 import useShowToast from './useShowToast';

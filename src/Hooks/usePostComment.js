@@ -3,7 +3,7 @@ import useAuthStore from "../store/authStore"
 import useShowToast from "./useShowToast";
 import usePostStore from "../store/postStore";
 import { arrayUnion, doc, updateDoc } from "firebase/firestore";
-import { firestore } from "../firebase/Firebase";
+import { firestore } from "../firebase/firebase";
 
 
 const usePostComment = () => {

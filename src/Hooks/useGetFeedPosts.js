@@ -4,7 +4,7 @@ import useShowToast from "./useShowToast"
 import useAuthStore from "../store/authStore";
 import useUserprofileStore from "../store/userProfileStore";
 import { collection, getDocs, query, where } from "firebase/firestore";
-import { firestore } from "../firebase/Firebase";
+import { firestore } from "../firebase/firebase";
 
 const useGetFeedPosts = () => {
   const [isLoading,setIsLoading] = useState(true);
