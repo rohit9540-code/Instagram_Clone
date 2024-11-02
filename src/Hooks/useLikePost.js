@@ -1,7 +1,7 @@
 import { useState } from "react"
 import useShowToast from "./useShowToast";
 import useAuthStore from "../store/authStore";
-import { firestore } from "../firebase/firebase";
+import { firestore } from "../firebase/Firebase";
 import { arrayRemove, arrayUnion, doc, updateDoc } from "firebase/firestore";
 
 const useLikePost = (post) => {

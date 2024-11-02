@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import useShowToast from "./useShowToast";
 import useAuthStore from "../store/authStore";
 import { collection, getDocs, limit, orderBy, query, where } from "firebase/firestore";
-import { firestore } from "../firebase/firebase";
+import { firestore } from "../firebase/Firebase";
 
 const useGetSuggestedUsers = () => {
     const [isLoading, setIsLoading] = useState(true)
