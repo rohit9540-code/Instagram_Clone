@@ -22,7 +22,7 @@ import Comment from "../Comment/Comment";
 import PostFooter from "../../components/Feedposts/PostFooter";
 import useUserProfileStore from "../../store/userProfileStore";
 import useAuthStore from "../../store/authStore";
-import useShowToast from "../../hooks/useShowToast";
+import useShowToast from "../../Hooks/useShowToast";
 import { useState } from "react";
 import { deleteObject, ref } from "firebase/storage";
 import { firestore, storage } from "../../firebase/firebase";
