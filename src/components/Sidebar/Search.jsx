@@ -1,5 +1,5 @@
 import { Box, Button, Flex, FormControl, FormLabel, Input, Modal, ModalBody, ModalCloseButton, ModalContent, ModalHeader, ModalOverlay, Tooltip, useDisclosure } from "@chakra-ui/react";
-import { SearchLogo } from "../../assets/constants";
+import { SearchLogo } from "../../assets/Constants";
 import useSearchUser from "../../Hooks/useSearchUser";
 import { useRef } from "react";
 import SuggestedUser from "../SuggestedUsers/SuggestedUser";

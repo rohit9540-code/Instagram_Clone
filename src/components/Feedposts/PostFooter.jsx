@@ -1,6 +1,6 @@
 import { Box, Button, Flex, Input, InputGroup, InputRightElement, Text, useDisclosure } from "@chakra-ui/react";
 import { useRef, useState } from "react";
-import { CommentLogo, NotificationsLogo, UnlikeLogo } from "../../assets/constants";
+import { CommentLogo, NotificationsLogo, UnlikeLogo } from "../../assets/Constants";
 import usePostComment from "../../Hooks/usePostComment";
 import useAuthStore from "../../store/authStore";
 import useLikePost from "../../Hooks/useLikePost";
