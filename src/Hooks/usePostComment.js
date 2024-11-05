@@ -24,8 +24,10 @@ const usePostComment = () => {
             createdBy:authUser.uid
         }
         try {
+            console.log(comment);
+            
             await updateDoc(doc(firestore,"posts",postId),{
-                comment:arrayUnion(newComment)
+                comments:arrayUnion(newComment)
             })
             addComment(postId,newComment)
         } catch (error) {

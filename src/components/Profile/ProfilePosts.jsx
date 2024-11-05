@@ -1,4 +1,4 @@
-import { Box, Flex, Grid, Skeleton, Text, VStack } from "@chakra-ui/react";
+import { Box, Flex, Grid, Image, Skeleton, Text, VStack } from "@chakra-ui/react";
 import ProfilePost from "./ProfilePost";
 import useGetUserPosts from "../../Hooks/useGetUserPosts";
 
@@ -42,7 +42,8 @@ export default ProfilePosts;
 const NoPostsFound = () => {
 	return (
 		<Flex flexDir='column' textAlign={"center"} mx={"auto"} mt={10}>
-			<Text fontSize={"2xl"}>No Posts Found🤔</Text>
+			{/* <Text fontSize={"2xl"}>No Posts Found</Text> */}
+			<Box><Image src="./no post2.jpg" objectFit={"cover"} height={"300px"} pb={"50px"}></Image></Box>
 		</Flex>
 	);
 };

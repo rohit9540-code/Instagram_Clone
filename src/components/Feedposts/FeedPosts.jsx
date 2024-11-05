@@ -4,7 +4,7 @@ import useGetFeedPosts from "../../Hooks/useGetFeedPosts"
 
 const FeedPosts = () => {
   const {isLoading,posts} = useGetFeedPosts();
-  console.log(posts);
+  // console.log(posts);
   
   return (
    <Container maxW={"container.sm"}>
