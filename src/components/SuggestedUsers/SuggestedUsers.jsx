@@ -1,7 +1,7 @@
 import { Box, Flex, Text, VStack } from "@chakra-ui/react";
 import SuggestedHeader from "./SuggestedHeader";
 import SuggestedUser from "./SuggestedUser";
-import useGetSuggestedUsers from "../../hooks/useGetSuggestedUsers";
+import useGetSuggestedUsers from "../../Hooks/useGetSuggestedUsers";
 import { span } from "framer-motion/client";
 
 const SuggestedUsers = () => {
