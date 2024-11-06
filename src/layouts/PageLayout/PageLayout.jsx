@@ -17,13 +17,13 @@ function PageLayout({children}) {
     <Flex flexDirection={canRenderNavbar ? "column" : "row"}>
         {/* sidebar on the left */}
         {canRenderSidebar ? (
-            <Box w={{base:"70px",md:"240px"}} >
+            <Box w={{base:"11vw",md:"240px"}} >
             <Sidebar/>
             </Box>
         ) : null}
         {canRenderNavbar ? <Navbar /> : null}
         {/* Page Content on the right */}
-        <Box flex={1} w={{base:"calc(100% - 70px)",md:"calc(100% - 240px)"}} mx={"auto"}>
+        <Box flex={1} w={{base:"calc(100% - 11vw)",md:"calc(100% - 240px)"}} mx={"auto"}>
             {children}
         </Box>
     </Flex>

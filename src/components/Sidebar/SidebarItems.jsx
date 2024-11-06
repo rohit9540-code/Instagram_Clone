@@ -8,7 +8,6 @@ const SidebarItems = () => {
   return (
    <>
    <Home />
-   {/*search component */}
    <Notifications />
    <CreatePost/>
    <Search/>
