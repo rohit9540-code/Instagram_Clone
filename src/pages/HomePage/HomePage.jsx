@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <Container maxW={"container.lg"}>
       <Flex gap={20}>
-        <Box flex={2} py={10}>
+        <Box flex={2} py={10} mr={{base:"-15px",md:0}}>
          <FeedPosts/>
         </Box>
 
