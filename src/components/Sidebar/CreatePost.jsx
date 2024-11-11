@@ -91,11 +91,11 @@ const CreatePost = () => {
 
 						<BsFillImageFill
 							onClick={() => imageRef.current.click()}
-							style={{  marginTop:"15px",marginLeft:"245px", cursor: "pointer"}}
+							style={{  marginTop:"15px",marginLeft:"16vw", cursor: "pointer"}}
 							size={40}
                             
 						/>
-                        <Box  pt={5} marginLeft={"200"} >Select image here</Box>
+                        <Box  pt={5} marginLeft={"13vw"} >Select image here</Box>
 						{selectedFile && (
 							<Flex mt={5} w={"full"} position={"relative"} justifyContent={"center"}>
 								<Image src={selectedFile} alt='Selected img' />
