@@ -11,7 +11,8 @@ const SuggestedUsers = () => {
 	if (isLoading) return null;
 
 	return (
-		<VStack py={8} px={6} gap={4}>
+		<VStack py={8} px={6} gap={4}
+		position={"sticky"} top={0}>
 			<SuggestedHeader />
 
 			{suggestedUsers.length !== 0 && (
