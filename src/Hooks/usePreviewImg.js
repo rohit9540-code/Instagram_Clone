@@ -4,7 +4,7 @@ import useShowToast from "./useShowToast";
 const usePreviewImg = () => {
 	const [selectedFile, setSelectedFile] = useState(null);
 	const showToast = useShowToast();
-	const maxFileSizeInBytes = 2 * 1024 * 1024; // 2MB
+	const maxFileSizeInBytes = 5 * 1024 * 1024; // 5MB
 
 	const handleImageChange = (e) => {
 		const file = e.target.files[0];
